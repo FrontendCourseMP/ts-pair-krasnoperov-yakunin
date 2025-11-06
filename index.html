@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Подпись ФИО</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="fioForm">
+    <label for="fullName">Введите ФИО (например: Иванов Иван Иванович):</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Фамилия Имя Отчество" required />
+    <button type="submit">Сформировать подпись</button>
+  </form>
+
+  <output id="result"></output>
+
+  <!-- Подключение скомпилированного TypeScript из папки dist -->
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
