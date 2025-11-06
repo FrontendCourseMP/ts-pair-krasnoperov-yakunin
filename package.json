@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/FrontendCourseMP/ts-pair-krasnoperov-yakunin/issues"
   },
-  "homepage": "https://github.com/FrontendCourseMP/ts-pair-krasnoperov-yakunin#readme"
+  "homepage": "https://github.com/FrontendCourseMP/ts-pair-krasnoperov-yakunin#readme",
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
