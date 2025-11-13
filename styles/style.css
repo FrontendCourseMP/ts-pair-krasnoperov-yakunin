@@ -61,3 +61,7 @@ output {
   font-size: 1.8rem;
   min-height: 20px;
 }
+
+section {
+  margin-bottom: 50px;
+}
