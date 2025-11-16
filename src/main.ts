@@ -1,4 +1,5 @@
-function parseFIO(input: string): { lastName: string; firstName: string; middleName?: string } | null {
+type FIOResult = { lastName: string; firstName: string; middleName?: string };
+function parseFIO(input: string): FIOResult | null {
     const trimmed = input.trim();
     if (!trimmed) return null;
   
